@@ -1,0 +1,94 @@
+-- 6)  Function_Call  -> identifier ( Arguments )
+    Arguments   ->  Term ArgumentsR | ε
+    ArgumentsR -> , Term ArgumentsR | ε
+
+-- 7) Term ->  number | identifier | Function_Call 
+
+-- 8) Arithmatic_Operator ->  + | - | * | / 
+
+-- 9) Equation -> Factor EquationR   
+   Factor -> Term | ( Equation )
+   EquationR -> Arithmatic_Operator Factor EquationR | 3	
+ 
+-- 10) Expression -> stringvalue | Term | Equation 
+
+-- 11) Assignment_Statement -> identifier := Expression
+ 
+-- 12) Datatype -> int | float | string
+
+-- 13) Declaration_Statement -> Datatype Declaration_StatementR AssignOrIdR ;
+    Declaration_StatementR -> identifier AssignOrId
+    AssignOrId -> := Expression | 3
+    AssignOrIdR -> , Declaration_StatementR AssignOrIdR | epslion
+
+-- 14) Write_Statement -> write Write_StatementR ;
+    Write_StatementR -> Expression | endl
+
+-- 15) Read_Statement -> read identifier ;
+
+-- 16) Return_Statement
+Return_Statement -> return Expression ;
+
+-- 17) Condition_Operator
+Condition_Operator -> < Condition_OperatorR | > | =
+Condition_OperatorR -> > | ε
+
+-- 18) Condition
+Condition -> identifier Condition_Operator Term
+
+-- 19) Boolean_Operator
+Boolean_Operator -> && | ||
+
+-- 20) Condition_Statement 
+Condition_Statement -> Condition Condition_StatementR
+Condition_StatementR -> Boolean_Operator Condition Condition_StatementR | ε
+
+-- 21) If_Statement -> if Condition_Statement then Statements Elif Els end 
+
+Statements -> Stats Statements | ε 
+
+	Stats -> Comment_Statement | Assignment_Statement |  
+
+		   Declaration_Statement | Write_Statement | 
+
+		   Read_Statement | Return_Statement | 
+
+		   If_Statement | Repeat_Statement 
+
+	Elif -> Else_If_Statement Elif | ε 
+
+	Els -> Else_Statement | ε 
+
+ 
+
+-- 22) Else_If_Statement -> elseif Condition_Statement then Statements 
+
+-- 23) Else_Statement -> else Statements 
+
+-- 24) Repeat_Statement -> repeat Statements until Condition_Statement 
+
+-- 26)
+Parameter -> Datatype identifier
+
+-- 27)
+Function_declaration -> Datatype identifier ( Parameter_List )
+Parameter_List -> Parameter Parameter_ListR | epslion 
+Parameter_ListR -> , Parameter Parameter_ListR | epslion
+
+-- 28)
+Function_Body -> { StatementsR Return_Statment }
+StatementsR -> StatsR StatementsR | ε 
+StatsR -> Comment_Statement | Assignment_Statement |  
+	Declaration_Statement | Write_Statement | 
+	Read_Statement | If_Statement | Repeat_Statement 
+
+-- 29)
+Function_Statment -> Function_Declaration Function_Body
+
+-- 30)
+Main_Function -> Datatype main () Function_Body
+
+-- 31)
+Program -> Function_Statments Main_Function 
+Function_Statments -> Function_Statment Function_Statments | epslion
+

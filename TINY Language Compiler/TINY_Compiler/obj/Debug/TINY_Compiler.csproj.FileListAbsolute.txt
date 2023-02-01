@@ -1,0 +1,12 @@
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\bin\Debug\JASON_Compiler.exe.config
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\bin\Debug\JASON_Compiler.exe
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\bin\Debug\JASON_Compiler.pdb
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\obj\Debug\TINY_Compiler.csproj.AssemblyReference.cache
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\obj\Debug\TINY_Compiler.csproj.SuggestedBindingRedirects.cache
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\obj\Debug\JASON_Compiler.Properties.Resources.resources
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\obj\Debug\TINY_Compiler.csproj.GenerateResource.cache
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\obj\Debug\TINY_Compiler.csproj.CoreCompileInputs.cache
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\obj\Debug\JASON_Compiler.exe
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\obj\Debug\JASON_Compiler.pdb
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\obj\Debug\TINY_Compiler.Form1.resources
+E:\Studies\LEVEL3_SEMESTER1\Compiler\Project\MileStone 2\Parser-Template - Studs Versions\TINY_Compiler\obj\Debug\TINY_Compiler.Form2.resources
